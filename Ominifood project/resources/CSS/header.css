@@ -1,0 +1,89 @@
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), hsla(0, 0%, 0%, 0.7)), url(img/hero.jpg);
+    background-size: cover; /*Informar para centralizar a imagem, enxergando toda ela*/
+    height: 100vh; /*Ocupa 100 view port*/
+}
+
+.hero-text-box{
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
+
+.logo{
+    margin-top: 30px;
+    height: 150px;
+    width: auto;
+    float: left;
+}
+
+.main-nav{
+    margin-top: 30px;
+    float: right;
+    list-style: none;
+}
+
+.main-nav li{
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited{
+    padding: 8px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active{
+    border-bottom: 2px solid orange;
+    transition: border-bottom 0.2s;
+}
+
+.btn:link,
+.btn:visited { /*Psudo classe, Estado do link após ter clicado*/
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+   }
+
+.btn-full:link,
+.btn-full:visited {
+    background-color: #db6606;
+    border: 1px solid #db6606;
+    color: #fff;
+    margin-right: 15px;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    border: 1px solid #db6606;
+    color: #db6606;
+}
+
+.btn:hover
+.btn:active{
+    background-color: orange ;
+}
+
+.btn-full:hover,
+.btn-full:active {
+    background-color: orange;
+    border: 1px solid black;
+    color: #000;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    border: 1px solid black;
+    color: #fff;
+    background-color: orange;
+}
