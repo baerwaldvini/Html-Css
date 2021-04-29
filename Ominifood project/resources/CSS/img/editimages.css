@@ -25,3 +25,78 @@
     margin-left: 60px;
     display: block;
 }
+
+.meals-showcase{
+    list-style: none;
+    width: 100%;
+}
+
+.meals-showcase li{
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.meal-photo{
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+
+}
+
+.meal-photo img{
+    opacity: 0.5;
+    width: 100%;
+    height: auto;
+    transform: scale(1.5);
+}
+
+.meal-photo img:hover{
+    transform: scale(1.03);
+    opacity: 1;
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.app-screen{
+    width: 40%;
+}
+
+.btn-app img{
+    height: 50px;
+    width: auto;
+    margin-right: 10px;
+}
+
+.cities{ 
+    width: 250px;
+    height: 154px;
+    border: 2px solid gray;
+  
+}
+
+.Population{
+    height: 25px;
+    width: auto;
+    display: block;
+    float: left;
+    margin-right: 10px;
+}
+
+.chef{
+    height: 25px;
+    width: auto;
+    display: block;
+    float: left;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+.twitter{
+    height: 25px;
+    width: auto;
+    display: block;
+    float: left;
+    margin-right: 10px;
+    margin-top: 15px;
+}
