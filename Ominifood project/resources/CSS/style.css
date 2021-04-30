@@ -22,3 +22,16 @@ html {
 .ajusting{
     margin-top: 17px;
 }
+
+a:link,
+a:hover{
+    color: orange;
+    text-decoration: none;
+    border-bottom: 1px solid rgb(175, 175, 175);
+    padding-bottom: 1px;
+}
+
+.btn-app:link,
+.btn-app:visited{
+    border: 0;
+}
