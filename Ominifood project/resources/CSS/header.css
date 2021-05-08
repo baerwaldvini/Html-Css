@@ -2,6 +2,7 @@ header{
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), hsla(0, 0%, 0%, 0.7)), url(img/hero.jpg);
     background-size: cover; /*Informar para centralizar a imagem, enxergando toda ela*/
     height: 100vh; /*Ocupa 100 view port*/
+    background-attachment: fixed;
 }
 
 .hero-text-box{

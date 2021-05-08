@@ -114,3 +114,59 @@ h2:after{
 .ajusting_margin{
     margin-left: 40px;
 }
+
+.section-testemonials{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), hsla(0, 0%, 0%, 0.7)), url(img/back-customers.jpg);
+    background-size: cover; /*Informar para centralizar a imagem, enxergando toda ela*/
+    height: 100vh; /*Ocupa 100 view port*/
+    background-attachment: fixed;
+    color: #fff;
+}
+
+blockquote{
+    padding: 2%;
+    font-style: italic;
+    line-height: 145%;
+    position: relative;
+    margin-top: 40px;
+}
+
+blockquote:before{
+    content: "\201C";
+    font-size: 500%;
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+}
+
+cite{
+    font-size: 90%;
+    margin-top: 25px;
+    display: block;
+}
+
+.section-plans{
+    background-color: #d8d8d8ee;
+}
+
+.plan-box{
+    background-color: white;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.plan-box div{
+    padding: 15px;
+    border-bottom: 1px solid #c7c6c6;
+}
+
+.plan-price{
+    font-size: 300%;
+    margin-bottom: 10px;
+}
+
+.plane-price-meal{
+    
+}
