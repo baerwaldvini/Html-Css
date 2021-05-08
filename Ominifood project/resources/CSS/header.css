@@ -47,7 +47,8 @@ header{
 }
 
 .btn:link,
-.btn:visited { /*Psudo classe, Estado do link após ter clicado*/
+.btn:visited,
+input[type=submit] { /*Pseudo classe, Estado do link após ter clicado*/
     display: inline-block;
     padding: 10px 30px;
     font-weight: 300;
@@ -57,11 +58,20 @@ header{
    }
 
 .btn-full:link,
-.btn-full:visited {
+.btn-full:visited,
+input[type=submit] {
     background-color: #db6606;
     border: 1px solid #db6606;
     color: #fff;
     margin-right: 15px;
+}
+
+.btn-full:hover,
+.btn-full:active,
+input[type=submit] {
+    background-color: orange;
+    border: 1px solid black;
+    color: #000;
 }
 
 .btn-ghost:link,
@@ -70,21 +80,16 @@ header{
     color: #db6606;
 }
 
-.btn:hover
-.btn:active{
-    background-color: orange ;
-}
-
-.btn-full:hover,
-.btn-full:active {
-    background-color: orange;
-    border: 1px solid black;
-    color: #000;
-}
-
 .btn-ghost:hover,
 .btn-ghost:active {
     border: 1px solid black;
     color: #fff;
     background-color: orange;
+}
+
+.btn:hover
+.btn:active,
+input[type=submit]:hover,
+input[type=submit]:active {
+    background-color: orange ;
 }

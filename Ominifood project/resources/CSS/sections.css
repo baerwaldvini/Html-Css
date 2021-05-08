@@ -157,6 +157,10 @@ cite{
     margin-left: 5%;
 }
 
+.plan-btn{
+    margin-left: 65px;
+}
+
 .plan-box div{
     padding: 15px;
     border-bottom: 1px solid #c7c6c6;
@@ -165,8 +169,59 @@ cite{
 .plan-price{
     font-size: 300%;
     margin-bottom: 10px;
+    font-weight: 100;
+    color: orange;
 }
 
-.plane-price-meal{
-    
+.plan-price span{
+    font-size: 30%;
+    font-weight: 300;
+}
+
+.plan-price-meal{
+    font-size: 80%;
+}
+
+.plan-box ul{
+    list-style: none;
+}
+
+.plan-box ul li{
+    padding: 5px 0;
+}
+
+/*Footer*/
+
+footer{
+    background-color: rgb(133, 133, 133);
+}
+
+.footer-nav{
+    list-style: none;
+    float: left;
+}
+
+.social-links{
+    list-style: none;
+    float: right;
+}
+
+.footer-nav li,
+.social-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav li:last-child,
+.social-links li:last-child{
+    margin-right: 0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:visited{
+    text-decoration: none;
+    border: 0;
+    color: rgb(37, 37, 37);
 }

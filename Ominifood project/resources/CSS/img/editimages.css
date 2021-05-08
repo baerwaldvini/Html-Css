@@ -107,10 +107,15 @@ cite img{
 }
 
 .select{
-    height: 25px;
+    height: 15px;
     width: auto;
     display: block;
     float: left;
-    margin-right: 10px;
-    margin-top: 15px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.social-midia{
+    height: 30px;
+    width: auto;
 }
